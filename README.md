@@ -14,7 +14,7 @@ git clone https://github.com/antoncarrot/init.vim.git nvim
 Create symbolic link to config
 ``` bash
 cd nvim
-ln -s init.vim ~/.config/nvim/init.vim
+ln -s $PWD/init.vim ~/.config/nvim/init.vim
 ```
 
 Download vim plugin manager
